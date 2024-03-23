@@ -9,7 +9,7 @@ Ensure that you have Node.js installed on your machine.
 ### Installation
 
 1. Clone the repository:
-```git clone ###```
+```git clone https://github.com/aaronmwhitehead/appointment-manager.git```
 
 2. Install the packages
 ```npm i```
