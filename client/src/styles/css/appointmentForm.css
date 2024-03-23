@@ -1,0 +1,89 @@
+.appointment-form-container {
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.appointment-form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 400px;
+  padding: 1em;
+  border-radius: 0.5em;
+  border: 1px solid #d6d6d6;
+  background-color: #fff;
+}
+.appointment-form .appointment-form--title {
+  font-size: 1.3em;
+  margin-bottom: 1em;
+}
+.appointment-form .appointment-info {
+  background-color: #efefef;
+}
+.appointment-form .appointment-form--date, .appointment-form .appointment-form--text-container, .appointment-form .appointment-form--input {
+  font-size: 1.1em;
+  margin-bottom: 1em;
+}
+.appointment-form .appointment-form--text-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.appointment-form .appointment-form--date, .appointment-form .appointment-form--time, .appointment-form .appointment-form--input {
+  border: 1px solid #cecece;
+  border-radius: 0.5em;
+  padding: 0.6em;
+  width: 100%;
+}
+.appointment-form .appointment-form--time {
+  padding: 0.6em;
+  flex: 1;
+  text-align: center;
+}
+.appointment-form .appointment-form--arrow {
+  margin: 0 1em;
+}
+.appointment-form .appointment-form--input {
+  margin-bottom: 1em;
+}
+.appointment-form .appointment-form--input.form-input--invalid {
+  border: 1px solid rgb(255, 138, 138);
+}
+
+.btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  border-radius: 0.5em;
+  margin-right: 1em;
+  font-size: 1em;
+}
+
+.btn-cancel {
+  color: #637184;
+  transition: all 0.2s;
+}
+.btn-cancel:hover {
+  text-decoration: underline;
+}
+
+.btn-primary {
+  background-color: #30373e;
+  color: #fff;
+  transition: background-color 0.2s;
+  padding: 0.8em 0.8em;
+}
+.btn-primary:hover {
+  background-color: #3f474f;
+}
+
+/*# sourceMappingURL=appointmentForm.css.map */

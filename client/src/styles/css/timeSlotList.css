@@ -1,0 +1,58 @@
+.timeslot-list {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.timeslot-list--header .timeslot-list--title {
+  font-size: 2em;
+  padding: 1em;
+}
+
+.week-view {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.week-view .day-container, .week-view .hour-column {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  height: 100%;
+}
+.week-view .hour-column {
+  flex: 1;
+}
+.week-view .day-title, .week-view .timezone-label {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.week-view .timezone-label {
+  color: #888;
+}
+.week-view .day-title {
+  background-color: #f8f8f8;
+}
+.week-view .hour-list, .week-view .timeslot-list--availability {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
+  height: 100%;
+}
+.week-view .hour-list .time-label--container {
+  flex: 1;
+  position: relative;
+}
+.week-view .hour-list .time-label {
+  text-align: center;
+  display: block;
+  position: absolute;
+  top: -8px;
+  color: #888;
+  width: 100%;
+}
+
+/*# sourceMappingURL=timeSlotList.css.map */

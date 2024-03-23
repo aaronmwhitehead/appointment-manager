@@ -1,0 +1,44 @@
+.slot--container:has(.slot-disabled) {
+  border-radius: 0;
+  padding: 0;
+}
+
+.slot--container {
+  display: flex;
+  height: 100%;
+  border-top: 1px solid #e8e8e8;
+  padding: 2px;
+}
+.slot--container .slot {
+  cursor: pointer;
+  flex: 1;
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+}
+.slot--container .slot .slot--name {
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+.slot--container .slot .slot--schedule {
+  font-size: 0.9em;
+  font-weight: 300;
+}
+.slot--container .available {
+  color: green;
+  background-color: #dbf5e7;
+}
+.slot--container .booked {
+  color: red;
+  background-color: #f5dbdb;
+}
+.slot--container .slot-disabled {
+  background-color: #e5e5f7;
+  opacity: 0.4;
+  background: repeating-linear-gradient(-43deg, #c2c2c2, #c2c2c2 3px, #e5e5f7 5px, #e5e5f7 6px);
+  cursor: default;
+  border-radius: 0;
+}
+
+/*# sourceMappingURL=timeSlot.css.map */
